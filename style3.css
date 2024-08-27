@@ -1,0 +1,82 @@
+/* General styling for the website */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+/* Styling for each section (segment) */
+.segment {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Adding different background colors for variety */
+.segment-color1 {
+    background-color: #fce4ec; /* Light pink */
+}
+
+.segment-color2 {
+    background-color: #e3f2fd; /* Light blue */
+}
+
+.segment-color3 {
+    background-color: #f1f8e9; /* Light green */
+}
+
+.segment-color4 {
+    background-color: #fff3e0; /* Light orange */
+}
+
+.segment-end {
+    background-color: #f8bbd0; /* Slightly darker pink */
+    color: #ffffff;
+}
+
+/* Styling for the text */
+h1, h2 {
+    color: #333333;
+    font-size: 2em;
+    font-family: 'Georgia', serif;
+}
+
+p {
+    color: #555555;
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: 'Verdana', sans-serif;
+}
+
+.segment-end h2 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+/* Styling for images */
+.image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cake-image {
+    max-width: 50%; /* Resize cake images to 50% width */
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
